@@ -1,0 +1,32 @@
+
+.GridProps{
+    padding-top: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+
+.propsText{
+    background: transparent;
+}
+
+.propsText h3{
+    color: #4c9e9e;
+}
+
+.GridProps img{
+    align-self: center;
+    width: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .GridProps{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        justify-content: center;
+        align-items: center;
+    }
+}
