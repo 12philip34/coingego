@@ -13,7 +13,7 @@ import Plant from "../../image/Plant-Bitcoin.png";
 function About() {
     return (
         <div>
-            <div className="aboutContainer">
+            <div className="aboutContainer" id='about'>
                 <section className="aboutUs">
                     <div className="aboutTextOne">
                         <h3>About_Us</h3>
@@ -61,7 +61,7 @@ function About() {
                         </div>
                     </div>
                 </section>
-                <section className="chooseUsSection">
+                <section className="chooseUsSection" id='services'>
                     <div className="chooseUs">
                         <h3>Why Choose Us</h3>
                         <h1>
@@ -134,7 +134,7 @@ function About() {
                         </div>
                     </div>
                 </section>
-                <section className='stepSuccess'>
+                <section className='stepSuccess' id='features'>
                     <div className="successCenter">
                         <h2>Features</h2>
                         <h1>All you need is here!!</h1>

@@ -3,4 +3,43 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     justify-content: center;
     align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.781));
+}
+
+
+.footer label h1{
+    color: #4c9e9e;
+    text-transform: uppercase;
+}
+
+.footer label ol li,
+ .footer label p{
+    color: #fff;
+}
+
+.footer label o, li{
+    margin: 30px 0;
+}
+
+.footer label ol li a{
+    color: #fff;
+}
+
+.footer label ol li a:hover{
+    color: #4c9e9e;
+    background: #fff;
+    padding: 5px;
+    transition: 1s;
+}
+
+.footer label ol li span{
+    color: #4c9e9e;
+    
+}
+
+.footer label ol li a:hover{
+    background: #fff;
+    padding: 5px;
+    transition: 1s;
+    cursor: pointer;
 }

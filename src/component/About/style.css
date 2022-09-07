@@ -73,6 +73,7 @@
 }
 
 button{
+
     background-color: #4c9e9e;
     border: none;
     padding: 5px;
@@ -156,6 +157,7 @@ h2{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-top: 1px solid #4c9e9e2f;
 }
 
 .successGrid{

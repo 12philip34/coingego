@@ -7,39 +7,55 @@ import Navbar from './component/Navbar';
 import TopSection from './component/TopSection';
 import CryptoSwap from "./image/Crypto-Swap-Exchange-3D-Illustration.png";
 import Machine from "./image/Machine.png";
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 
 
-function App() {
+
+const App = () => {
+
+
   return (
     <div className='App'>
-        <Navbar />
-        <TopSection />
-        <About />
-        <GridProps
-        
-          h3 = "THE VISION"
-          h1 = "Users from all over the world"
-          p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit"
-          secondp = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          button = "Exchanges"
-          logo={ <img className='image' style={{
-            width: 200,
-          }}  src={CryptoSwap} alt="logo.png"/>}
-          />
-          <GridProps 
-          logo={<img className='image' style={{
-            width: 200,
-          }} src={Machine} alt="logo.png" />}
+      <Navbar />
+      <TopSection />
+      <About />
+      <GridProps
 
-          h3= "PROFITABLE BLOCKCHAIN"
-          h1= "Trusted Platform"
-          p = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit"
-          secondp = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          button = "Total Global Node"
-          />
-          <Footer />
+        h3="THE VISION"
+        h1="Users from all over the world"
+        p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit"
+        secondp="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        button="Exchanges"
+        logo={<img className='image' style={{
+          width: 200,
+        }} src={CryptoSwap} alt="logo.png" />}
+      />
+      <GridProps
+        logo={<img className='image' style={{
+          width: 200,
+        }} src={Machine} alt="logo.png" />}
+
+        h3="PROFITABLE BLOCKCHAIN"
+        h1="Trusted Platform"
+        p="Lorem ipsum dolor sit amet, consectetur adipiscing elit. consectetur adipiscing elit"
+        secondp="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        button="Total Global Node"
+      />
+      <Footer />
+      <ScrollUpButton
+         StopPosition={0}
+         ShowAtPosition={150}
+         EasingType='easeOutCubic'
+         AnimationDuration={500}
+         ContainerClassName='MyOverRideClass'
+         TransitionClassName='MyOverRideTransitionedClass'
+         style={{}}
+         ToggledStyle={{
+          right: 10
+         }}
+      />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

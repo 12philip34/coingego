@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <div>
-          <section className='footer'>
+          <section className='footer' id='contact'>
                 <label>
                     <h1>DecoMarket</h1>
                     <p>
@@ -34,7 +34,7 @@ function Footer() {
                     <ol>
                         <li>Tell: 09032127081(Whatsapp)</li>
                         <li><a href="https://nssienphilip.netlify.app/">Portfolio</a></li>
-                        <li></li>
+                        <li>Twitter: <a href=''>@Nssienphilip</a></li>
                     </ol>
                 </label>
             </section>
