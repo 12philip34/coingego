@@ -1,0 +1,84 @@
+.SectionOne{
+    background: #4c9e9e;
+    padding: 20px 50px;
+}
+
+.Invest{
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+}
+
+.SectionOne .threeGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+
+.SectionOne .threeGrid label{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #394b4b;
+}
+
+.SectionOne .threeGrid label h3{
+    color: #394b4b;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+
+.SectionOne .threeGrid label p{ 
+    color: whitesmoke;
+}
+
+.aboutCrypto section h3{
+    color: white;
+    font-size: 2em;
+    margin: 50px 0;
+}
+
+.aboutCrypto section p{
+    margin: 20px 0;
+}
+
+.SectionOne .laptopGrid section h3{
+    color: #fff;
+    font-size: 2em;
+}
+
+.SectionOne .laptopGrid section h3{
+    color: #fff;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+    .SectionOne .threeGrid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+
+    .Invest{
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1300px) {
+    .SectionOne .threeGrid .label {
+        grid-area: 1 / 2 / span 2 / span 4;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 2000px) and (max-width: 2560px) {
+    .SectionOne .threeGrid {
+        grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+
+    }
+}

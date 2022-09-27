@@ -1,0 +1,27 @@
+.IntroductionGrid{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.479)), url(../../image/model-3211627_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.IntroductionGrid section{
+    width: 100%;
+    text-align: center;
+}
+
+.IntroductionGrid section h1{
+    color: #4c9e9e;
+    text-transform: capitalize;
+    font-size: 2.3rem;
+}
+
+.IntroductionGrid section p{
+    color: #fff;
+    font-size: 1.2em;
+}
