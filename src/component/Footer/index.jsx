@@ -1,6 +1,5 @@
 import React from 'react';
 import "./style.css";
-import "../../../node_modules/font-awesome/css/font-awesome.min.css";
 import Facebook from "../../image/facebook.png";
 import Twitter from "../../image/twitter.png";
 import Github from "../../image/github.png";
