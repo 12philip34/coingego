@@ -10,7 +10,7 @@ import secure from "../../image/Security.png";
 const SectionOne = () => {
   return (
     <div className='SectionOne'>
-      <h1 className='Invest'>Invest in the future with confidence..</h1>
+      <h1 className='future'>Invest in the future with confidence..</h1>
       <div className="threeGrid">
         <label>
           <img src={easy} alt="easy.png" />
